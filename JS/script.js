@@ -1,33 +1,29 @@
 // CHARGEMENT
-setTimeout(() => {
-	const preloader = document.querySelector(".preloader");
-	preloader.classList.add('fondu-out');
-setTimeout(() => {
-	preloader.style.display = "none";
-}, 500);
-}, 2070);
-
-// TRANSITION
-window.addEventListener("load", function() {
-	document.body.classList.add("active");
+window.addEventListener("load", () => {
+  const preloader = document.querySelector(".preloader");
+  preloader.classList.add('fondu-out');
+  setTimeout(() => {
+    preloader.style.display = "none";
+    document.body.classList.add("active");
+  }, 500);
 });
 
-document.addEventListener("DOMContentLoaded", function() {
-var links = document.querySelectorAll("a");
+// TRANSITION
+document.addEventListener("DOMContentLoaded", () => {
+  const links = document.querySelectorAll("a");
 
-for (var i = 0; i < links.length; i++) {
-	var link = links[i];
-	var target = link.getAttribute("target");
+  links.forEach(link => {
+    const target = link.getAttribute("target");
 
-if (target !== "_blank") {
-	link.addEventListener("click", function(event) {
-		event.preventDefault();
-            var href = this.getAttribute("href");
-            document.body.classList.remove("active");
-            setTimeout(function() {
-            	window.location.href = href;
-            }, 500);
-        });
-}
-}
+    if (target !== "_blank") {
+      link.addEventListener("click", event => {
+        event.preventDefault();
+        const href = link.getAttribute("href");
+        document.body.classList.remove("active");
+        setTimeout(() => {
+          window.location.href = href;
+        }, 500);
+      });
+    }
+  });
 });
