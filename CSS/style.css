@@ -115,29 +115,6 @@ form input, form textarea {
     align-self: flex-start;
 }
 
-#news-list, #temoignage-list {
-    margin-top: 20px;
-}
-
-.news-item, .temoignage-item {
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid #ccc;
-    margin-bottom: 10px;
-    border-radius: 4px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.news-item:hover, .temoignage-item:hover {
-    transform: scale(1.02);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-.news-item h3, .temoignage-item h3 {
-    margin: 0 0 10px;
-}
-
 footer {
     text-align: center;
     padding: 2em 0;
@@ -150,4 +127,3 @@ footer {
     from { opacity: 0; }
     to { opacity: 1; }
 }
-
