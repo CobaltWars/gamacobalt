@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rétro Gaming</title>
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img src="Ressources/GamaCobalt.png">
-        <nav>
+        <h1>Rétro Gaming</h1>
+        <nav id="navbar">
             <ul>
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="telechargement-jeux.html">Télécharger des jeux</a></li>
@@ -26,23 +26,25 @@
             <p>Explorez les classiques du jeu vidéo et téléchargez vos titres préférés!</p>
         </section>
     </main>
-    <p>aa</p>
-    <p>aa</p>
-    <p>aa</p>
-    <p>aa</p>
-    <p>aa</p>
-        <p>aa</p>
-    <p>aa</p>
-    <p>aa</p>
-    <p>aa</p>
-    <p>aa</p>
-        <p>aa</p>
-    <p>aa</p>
-    <p>aa</p>
-    <p>aa</p>
-    <p>aa</p>
-    <footer>
+    <footer id="footer">
         <p>&copy; 2024 Rétro Gaming. Tous droits réservés.</p>
     </footer>
+    <script>
+        document.addEventListener('scroll', function() {
+            const nav = document.getElementById('navbar');
+            const footer = document.getElementById('footer');
+            if (window.scrollY > 100) {
+                nav.classList.add('fixed');
+            } else {
+                nav.classList.remove('fixed');
+            }
+
+            if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+                footer.classList.add('visible');
+            } else {
+                footer.classList.remove('visible');
+            }
+        });
+    </script>
 </body>
 </html>
