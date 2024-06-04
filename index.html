@@ -3,48 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rétro Gaming</title>
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Élection Présidentielle - Florentin</title>
+    <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
     <header>
-        <h1>Rétro Gaming</h1>
-        <nav id="navbar">
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="telechargement-jeux.html">Télécharger des jeux</a></li>
-                <li><a href="telechargement-logiciels.html">Télécharger des logiciels</a></li>
-            </ul>
-        </nav>
+        <h1>Élection Présidentielle 2024</h1>
+        <h2>Florentin Président !</h2>
     </header>
+    <nav>
+        <ul>
+            <li><a href="index.html" class="active">Accueil</a></li>
+            <li><a href="programme.html">Programme</a></li>
+            <li><a href="ministres.html">Ministres</a></li>
+            <li><a href="galerie.html">Galerie</a></li>
+            <li><a href="temoignages.html">Témoignages</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="nouvelles.html">Nouvelles</a></li>
+        </ul>
+    </nav>
     <main>
-        <section>
-            <h2>Bienvenue sur Rétro Gaming</h2>
-            <p>Explorez les classiques du jeu vidéo et téléchargez vos titres préférés!</p>
+        <section id="accueil">
+            <h2>Bienvenue sur le site officiel de la campagne présidentielle de Florentin</h2>
+            <p>Florentin est le candidat idéal pour apporter des changements positifs à notre lycée. Rejoignez-nous pour faire de notre école un endroit meilleur !</p>
         </section>
     </main>
-    <footer id="footer">
-        <p>&copy; 2024 Rétro Gaming. Tous droits réservés.</p>
+    <footer>
+        <p>&copy; 2024 Campagne Présidentielle de Florentin. Tous droits réservés.</p>
     </footer>
-    <script>
-        document.addEventListener('scroll', function() {
-            const nav = document.getElementById('navbar');
-            const footer = document.getElementById('footer');
-            if (window.scrollY > 100) {
-                nav.classList.add('fixed');
-            } else {
-                nav.classList.remove('fixed');
-            }
-
-            if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
-                footer.classList.add('visible');
-            } else {
-                footer.classList.remove('visible');
-            }
-        });
-    </script>
+    <script src="JS/script.js"></script>
 </body>
 </html>
