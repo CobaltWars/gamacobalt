@@ -57,20 +57,12 @@ nav ul li a:hover {
     transform: scale(1.1);
 }
 
+.active {
+    background-color: blue;
+}
+
 section {
     margin-bottom: 2em;
-}
-
-button {
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-button:hover {
-    background-color: #0066ff;
 }
 
 #contact-form button {
