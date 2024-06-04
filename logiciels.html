@@ -3,52 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Télécharger des logiciels - Rétro Gaming</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Gamacobalt</title>
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
     <header>
-        <h1>Rétro Gaming</h1>
-        <nav id="navbar">
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="telechargement-jeux.html">Télécharger des jeux</a></li>
-                <li><a href="telechargement-logiciels.html">Télécharger des logiciels</a></li>
-            </ul>
-        </nav>
+        <img src="Ressources/GamaCobalt.png">
     </header>
-    <main>
-        <section>
-            <h2>Télécharger des logiciels</h2>
-            <ul>
-                <li><a href="telechargements/emulateur1.zip">Émulateur 1</a></li>
-                <li><a href="telechargements/emulateur2.zip">Émulateur 2</a></li>
-                <li><a href="telechargements/emulateur3.zip">Émulateur 3</a></li>
-            </ul>
-        </section>
-    </main>
-    <footer id="footer">
-        <p>&copy; 2024 Rétro Gaming. Tous droits réservés.</p>
+    <nav>
+        <ul>
+            <li><a href="index.html" class="active">Accueil</a></li>
+            <li><a href="logiciels.html">Logiciels</a></li>
+            <li><a href="jeux.html">Jeux</a></li>
+        </ul>
+    </nav>
+    <section class="hero">
+        <h2>Bienvenue dans l'univers des gamers</h2>
+        <p>Découvrez les créations, développement de logiciels et de jeux vidéos, par une petite communauté de personnes dans un lycée.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Gamacobalt. Tous droits réservés.</p>
     </footer>
-    <script>
-        document.addEventListener('scroll', function() {
-            const nav = document.getElementById('navbar');
-            const footer = document.getElementById('footer');
-            if (window.scrollY > 100) {
-                nav.classList.add('fixed');
-            } else {
-                nav.classList.remove('fixed');
-            }
-
-            if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
-                footer.classList.add('visible');
-            } else {
-                footer.classList.remove('visible');
-            }
-        });
-    </script>
+    <script src="JS/script.js"></script>
 </body>
 </html>
