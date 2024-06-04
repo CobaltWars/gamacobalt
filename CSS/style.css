@@ -70,8 +70,7 @@ button {
 }
 
 button:hover {
-    background-color: #005ae0;
-    transform: translate(1px, 1px);
+    background-color: #0066ff;
 }
 
 #contact-form button {
