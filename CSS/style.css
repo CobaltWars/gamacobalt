@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #0066ff;
     color: white;
     text-align: center;
     padding: 2em 0;
@@ -62,7 +62,7 @@ section {
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #0066ff;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -71,7 +71,7 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #005ae0;
     transform: scale(1.1);
 }
 
@@ -141,7 +141,7 @@ form input, form textarea {
 footer {
     text-align: center;
     padding: 2em 0;
-    background-color: #4CAF50;
+    background-color: #0066ff;
     color: white;
     position: relative;
 }
@@ -164,15 +164,15 @@ header h2 {
 }
 
 nav ul li a.active {
-    background-color: #45a049;
+    background-color: #0066ff;
 }
 
 section h2 {
     font-size: 2em;
     margin-bottom: 0.5em;
-    border-bottom: 2px solid #4CAF50;
+    border-bottom: 2px solid #0066ff;
     padding-bottom: 0.5em;
-    color: #4CAF50;
+    color: #0066ff;
 }
 
 section p, section ul {
