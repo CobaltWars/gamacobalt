@@ -77,6 +77,7 @@ footer {
     background-color: #575757;
     color: white;
     position: relative;
+    border-radius: 20px 20px 0px 0px;
 }
 
 @keyframes fadeIn {
