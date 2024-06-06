@@ -71,6 +71,38 @@ section {
     align-self: flex-start;
 }
 
+/* Style pour la section d'actualité */
+.actualites {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.actualites h2 {
+    margin-top: 0;
+}
+
+.actualites ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.actualites li {
+    margin-bottom: 20px;
+}
+
+.actualites h3 {
+    margin-top: 0;
+}
+
+.actualites p {
+    margin-bottom: 10px;
+}
+
+/* Style pour le bouton "Savoir plus" */
 .btn-savoir-plus {
     background-color: #4CAF50;
     color: #ffffff;
