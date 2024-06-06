@@ -153,3 +153,13 @@ footer {
     transition: opacity 0.4s ease-out;
 }
 
+/*TRANSITION PAGE*/
+
+.fade-in-out {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in-out.active {
+  opacity: 1;
+}
