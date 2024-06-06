@@ -71,58 +71,22 @@ section {
     align-self: flex-start;
 }
 
-/* Style pour la section d'actualité */
-.actualites {
-    background-color: #f7f7f7;
+/*DIFFERENT LIEN*/
+.games {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+  }
+  
+.game-card {
+    width: 300px;
     padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.actualites h2 {
-    margin-top: 0;
-}
-
-.actualites ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.actualites li {
-    margin-bottom: 20px;
-}
-
-.actualites h3 {
-    margin-top: 0;
-}
-
-.actualites p {
-    margin-bottom: 10px;
-}
-
-/* Style pour le bouton "Savoir plus" */
-.btn-savoir-plus {
-    background-color: #4CAF50;
-    color: #ffffff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.btn-savoir-plus:hover {
-    background-color: #3e8e41;
-}
-
-footer {
+    border: 1px solid #ccc;
     text-align: center;
-    padding: 1em 0;
-    background-color: #575757;
-    color: white;
-    position: relative;
-    border-radius: 20px 20px 0px 0px;
+}
+  
+.game-card img {
+    max-width: 100%;
 }
 
 @keyframes fadeIn {
