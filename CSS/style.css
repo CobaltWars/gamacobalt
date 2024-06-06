@@ -60,7 +60,7 @@ nav ul li a:hover {
 }
 
 .active {
-    background-color: rgb(99, 99, 99);
+    background-color: rgb(255, 255, 255); /*a changer !!!!!!*/
 }
 
 section {
