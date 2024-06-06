@@ -75,7 +75,7 @@ section {
 .games {
     display: flex;
     justify-content: space-around;
-    padding: 10px 0;
+    padding: 0px 0;
   }
   
 .game-card {
