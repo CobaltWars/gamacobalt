@@ -84,7 +84,7 @@ section {
     padding: 20px;
     border: 1px solid #ccc;
     text-align: center;
-    margin: 5% 0;
+    margin: 1% 0;
     box-sizing: border-box; /* Assure que le padding est inclus dans la largeur */
 }
 
