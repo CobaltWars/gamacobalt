@@ -71,10 +71,6 @@ nav ul li a.active {
     background-color: #505050;
 }
 
-.separate {
-    justify-content: flex-end;
-}
-
 section {
     margin-bottom: 2em;
 }
