@@ -130,6 +130,28 @@ section {
     }
 }
 
+/*Download*/
+.button {
+    background-color: #0088f4;
+    transition: all 0.5s;
+    border: none;
+    color: white;
+    font-family: "Helvetica";
+    border-radius: 5%;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    transform: scale(1.1);
+    background-color: #0032d5;
+  }
+
 /*PIED DE PAGE*/
 footer {
     background-color: #333;
