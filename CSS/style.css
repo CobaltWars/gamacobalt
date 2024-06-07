@@ -73,7 +73,7 @@ section {
 
 /*DIFFERENT LIEN*/
 .actu {
-    display: inline-block;
+    display: none;
     justify-content: space-around;
     padding: 50px 0;
   }
