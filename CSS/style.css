@@ -40,6 +40,14 @@ nav ul {
     justify-content: center;
 }
 
+nav ul2 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0,01;
+    display: flex;
+    justify-content: end;
+}
+
 nav ul li {
     margin: 0 1em;
 }
