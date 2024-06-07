@@ -96,6 +96,7 @@ section {
 .games {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap; /* Ajouté pour permettre le wrapping */
     padding: 50px 0;
 }
   
