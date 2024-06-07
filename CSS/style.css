@@ -45,7 +45,7 @@ nav ul ul {
     padding: 0;
     margin: 0,01;
     display: flex;
-    justify-content: end;
+    justify-content: center;
 }
 
 nav ul li {
