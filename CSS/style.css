@@ -35,7 +35,7 @@ nav {
 nav ul {
     list-style-type: none;
     padding: 0;
-    margin: 0;
+    margin: 0,01;
     display: flex;
     justify-content: center;
 }
@@ -61,10 +61,6 @@ nav ul li a:hover {
 
 nav ul li a.active {
     background-color: #505050;
-}
-
-nav ul li.separate {
-    margin-left: auto;
 }
 
 section {
