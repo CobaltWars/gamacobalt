@@ -71,29 +71,19 @@ section {
     align-self: flex-start;
 }
 
+/*DIFFERENT LIEN*/
 .actu {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap; /* Ajouté pour permettre le wrapping */
     padding: 50px 0;
-}
-
+  }
+  
 .actu-card {
     width: 700px;
     padding: 20px;
     border: 1px solid #ccc;
     text-align: center;
-    box-sizing: border-box; /* Ajouté pour s'assurer que le padding est inclus dans la largeur */
 }
-
-/* Media query pour les écrans plus petits */
-@media (max-width: 1500px) {
-    .actu-card {
-        width: 100%; /* Les cartes prendront toute la largeur disponible */
-        margin-bottom: 20px; /* Ajouter un espace entre les cartes */
-    }
-}
-
 
 .games {
     display: flex;
