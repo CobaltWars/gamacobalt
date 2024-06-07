@@ -85,6 +85,7 @@ section {
     border: 1px solid #ccc;
     text-align: center;
     margin: 1% 0;
+    border-radius: 5px;
     box-sizing: border-box; /* Assure que le padding est inclus dans la largeur */
 }
 
