@@ -96,10 +96,10 @@ section {
 .games {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap; /* Ajouté pour permettre le wrapping */
+    flex-wrap: wrap; /* Permet le wrapping */
     padding: 50px 0;
 }
-  
+
 .game-card {
     width: 300px;
     padding: 20px;
@@ -114,13 +114,16 @@ section {
     max-width: 100%;
 }
 
-
 /* Media query pour les écrans plus petits */
 @media (max-width: 768px) { /* Vous pouvez ajuster cette valeur selon vos besoins */
     .actu-card {
         width: 100%; /* Les cartes prendront toute la largeur disponible */
         margin-bottom: 20px; /* Ajouter un espace entre les cartes */
     }
+}
+
+/* Media query pour les écrans plus petits */
+@media (max-width: 768px) { /* Ajustez cette valeur selon vos besoins */
     .game-card {
         width: 100%; /* Les cartes prendront toute la largeur disponible */
         margin-bottom: 20px; /* Ajouter un espace entre les cartes */
