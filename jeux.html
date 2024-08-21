@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--base href="https://gamacobalt.example.com/jeux"-->
+    <title>GAMACOBALT - Nos Jeux</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="CSS/style.css" rel="stylesheet">
+    <link href="loader/style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="Ressources/favicon.ico">
+  </head>
+  <body>
+    <div id="page-transition">
+      <div class="loader">
+        <div class="cube">
+          <div class="cube-face cube-face-front"></div>
+          <div class="cube-face cube-face-back"></div>
+          <div class="cube-face cube-face-right"></div>
+          <div class="cube-face cube-face-left"></div>
+          <div class="cube-face cube-face-top"></div>
+          <div class="cube-face cube-face-bottom"></div>
+        </div>
+      </div>
+      <div class="loading-text">Chargement en cours...</div>
+    </div>
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <img src="Ressources/GamaCobalt.png">
+          <nav>
+            <ul>
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="" class="active">Jeux</a></li>
+              <li><a href="logiciels.html">Logiciel</a></li>
+              <li><a href="gldf.html" class="gldf-button">GLDF</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <h1>Nos Jeux</h1>
+        <div class="games-grid">
+          <div class="game-card">
+            <div class="game-image" style="background-image: url('Ressources/echec.png');"></div>
+            <div class="game-info">
+              <h2 class="game-title">My Chess</h2>
+              <p class="game-description">Description du Jeu: C'est un jeu d'échec très original : il est octogonal</p>
+              <a href="download/game/My Chess.zip" class="play-button">Télécharger</a>
+            </div>
+          </div>
+          <div class="game-card">
+            <div class="game-image" style="background-image: url('Ressources/flappy.png');"></div>
+            <div class="game-info">
+              <h2 class="game-title">Flappy Bird Remastered</h2>
+              <p class="game-description">Description du Jeu: Le bon vieux Flappy Bird, mais en 10x mieux !</p>
+              <a href="download/game/Flappy Remastered.zip" class="play-button">Télécharger</a>
+            </div>
+          </div>
+          <div class="game-card">
+            <div class="game-image" style="background-image: url('Ressources/towersescape.png');"></div>
+            <div class="game-info">
+              <h2 class="game-title">Towers Escape</h2>
+              <p class="game-description">Description du jeu: Un remix du dino-game, mais seulement votre skill sera mis à rude épreuve !</p>
+              <a href="download/game/Towers Escape.zip" class="play-button">Télécharger</a>
+            </div>
+          </div>
+          <div class="game-card">
+            <div class="game-image" style="background-image: url('Ressources/co_game.png');"></div>
+            <div class="game-info">
+              <h2 class="game-title">Conways game of life</h2>
+              <p class="game-description">Plongez dans une simulation du jeu imaginé par John Horton Conway.</p>
+              <a href="https://cobaltwars.itch.io/conways-game-of-life" class="play-button" target="_blank">Jouer</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2023 GAMACOBALT. Tous droits réservés.</p>
+      </div>
+    </footer>
+    <script src="loader/scrpt.js"></script>
+  </body>
+</html>

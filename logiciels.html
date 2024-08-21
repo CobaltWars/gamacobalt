@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--base href="https://gamacobalt.example.com/logiciel"-->
+    <title>GAMACOBALT - Notre Logiciel</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="CSS/style.css" rel="stylesheet">
+    <link href="loader/style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="Ressources/favicon.ico">
+  </head>
+  <body>
+    <div id="page-transition">
+      <div class="loader">
+        <div class="cube">
+          <div class="cube-face cube-face-front"></div>
+          <div class="cube-face cube-face-back"></div>
+          <div class="cube-face cube-face-right"></div>
+          <div class="cube-face cube-face-left"></div>
+          <div class="cube-face cube-face-top"></div>
+          <div class="cube-face cube-face-bottom"></div>
+        </div>
+      </div>
+      <div class="loading-text">Chargement en cours...</div>
+    </div>
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <img src="Ressources/GamaCobalt.png">
+          <nav>
+            <ul>
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="jeux.html">Jeux</a></li>
+              <li><a href="" class="active">Logiciel</a></li>
+              <li><a href="gldf.html" class="gldf-button">GLDF</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <h1>Nos Logiciels</h1>
+        <div class="games-grid">
+          <div class="game-card">
+            <div class="game-image" style="background-image: url('Ressources/cmdpshell.png');"></div>
+            <div class="game-info">
+              <h2 class="game-title">CMD & Powershell</h2>
+              <p class="game-description">Description du logiciel: Logiciel qui permet de choisir l'exécution de cmd ou de powershell</p>
+              <a href="download/log/CMD & PSheel.zip" class="play-button">Télécharger</a>
+            </div>
+          </div>
+          <div class="game-card">
+            <div class="game-image" style="background-image: url('Ressources/clock_icon.png');"></div>
+            <div class="game-info">
+              <h2 class="game-title">Projet Débile</h2>
+              <p class="game-description">Description du Projet: C'est un projet débile</p>
+              <a href="download/log/Projet Debile.zip" class="play-button">Télécharger</a>
+            </div>
+          </div>
+          <div class="game-card">
+            <div class="game-image" style="background-image: url('Ressources/Genesis.png');"></div>
+            <div class="game-info">
+              <h2 class="game-title">Genesis</h2>
+              <p class="game-description">Description du logiciel: Un navigateur fait maison</p>
+              <a href="download/log/setupGenesis.zip" class="play-button">Télécharger</a>
+            </div>
+          </div>
+          <div class="game-card">
+            <div class="game-image" style="background-image: url('Ressources/yt_logo.png');"></div>
+            <div class="game-info">
+              <h2 class="game-title">Youtube.py</h2>
+              <p class="game-description">Description du logiciel: Youtube.py, un logiciel open source visant à être mieux que celui d'origine</p>
+              <a href="download/log/Youtube.py.zip" class="play-button">Télécharger</a>&nbsp&nbsp<a href="https://github.com/CobaltWars/Youtube.py" class="play-button" target="_blank">Github</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2023 GAMACOBALT. Tous droits réservés.</p>
+      </div>
+    </footer>
+    <script src="loader/scrpt.js"></script>
+  </body>
+</html>
